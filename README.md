@@ -1,4 +1,4 @@
-# Augment Credit Monitor
+# Augment Alkways on Display Credit Monitor
 
 A lightweight macOS menu bar app to help you stay on top of your Augment credits, so you’re never caught off guard in the middle of important work.
 

@@ -1,0 +1,54 @@
+{
+  "productName": "Augment Credit Monitor",
+  "version": "1.0.0",
+  "identifier": "com.augmentcreditmonitor.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Productivity",
+    "shortDescription": "Monitor Augment credit balance",
+    "longDescription": "Real-time monitoring and analytics for Augment credit balance with usage predictions and smart alerts",
+    "macOS": {
+      "signingIdentity": "-",
+      "entitlements": null,
+      "exceptionDomain": null,
+      "frameworks": [],
+      "providerShortName": null
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "fullscreen": false,
+        "resizable": true,
+        "title": "Augment Credit Monitor",
+        "width": 400,
+        "height": 600,
+        "minWidth": 350,
+        "minHeight": 500,
+        "visible": true,
+        "decorations": true,
+        "transparent": false,
+        "alwaysOnTop": false,
+        "skipTaskbar": false,
+        "closable": true,
+        "minimizable": true,
+        "maximizable": true,
+        "hiddenTitle": false,
+        "titleBarStyle": "Visible"
+      }
+    ],
+    "security": {
+      "csp": null,
+      "capabilities": ["default"]
+    }
+  },
+  "plugins": {}
+}

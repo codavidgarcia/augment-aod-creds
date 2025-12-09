@@ -48,6 +48,11 @@ To build from source:
 - **Storage**: SQLite (local)
 
 ## Screenshots
+<img width="415" height="741" alt="2025-12-04_11-40-36" src="https://github.com/user-attachments/assets/b1f95654-f4e5-4c52-9d62-0cd37e87cb13" />
+<img width="559" height="737" alt="2025-12-04_11-40-51" src="https://github.com/user-attachments/assets/bc260b9b-5506-48bf-b976-9c4c9357e2b4" />
+<img width="461" height="821" alt="2025-12-04_11-41-30" src="https://github.com/user-attachments/assets/4e041250-b56d-4683-ba29-5284d44502cf" />
+
+
 
 The app lives in your menu bar showing your current balance.  
 When you click it, you’ll see a focused dashboard with:

@@ -7,27 +7,23 @@ A lightweight macOS menu bar app to help you stay on top of your Augment credits
 ## What it does
 
 - Shows your credit balance in the menu bar (always visible)
-- Tracks usage by model (Claude Sonnet, GPT-4, etc.) and activity type (Agent, Chat, CLI)
+- Tracks usage by model / email in teams
 - Alerts you when credits are running low, so you can plan ahead
-- Offers simple charts to understand where your credits are going over time
+- Offers simple charts to understand where your credits are going over time, including an average of your usage and an estimated timing until you would possibly run out of creds
 
 ## Quick Start
-
-### Download
-
-Grab the latest `.dmg` from [Releases](https://github.com/codavidgarcia/augment-credit-monitor/releases).
 
 ### First time setup
 
 1. Open the app.
 2. Click **"Login with Augment"**.
-3. Sign in with your Augment account (Google/Microsoft/GitHub).
+3. Sign in with your Augment account.
 4. Click **"Connect to App"** when prompted.
 5. That’s it — your balance appears in the menu bar, and you can open the dashboard for more detail.
 
 ## Dev Setup
 
-If you want to build from source:
+To build from source:
 
     # Clone
     git clone https://github.com/codavidgarcia/augment-credit-monitor.git
